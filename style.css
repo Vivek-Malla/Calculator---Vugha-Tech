@@ -13,9 +13,29 @@ body{
     border-radius: 20px;
     background: #555555;
 }
+.calculator h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(3, 13, 102);
+}
 .calculator input{
     padding: 25px;
     margin: 5px;
     border-radius: 12px;
     background: #ffffff;
+}
+.calculator input:hover{
+    background-color: #e5ff00;
+}
+.name{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    /* border: 4px solid black;
+    border-radius: 10px; */
+}
+.name a{
+    text-decoration: none;
+    color: yellow;
+}
+.name a:hover{
+    color: rgb(255, 255, 255);
 }
